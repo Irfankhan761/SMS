@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ #logo{
+    margin: 10px 23px;
+ }
+ #logo img{
+    height: 140px;
+ }
+ #navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+ }
+
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 2rem;
+   
+}
+#navbar ul li a{
+    text-decoration: none;
+  
+    border-radius: 2px;
+    padding: 10px 20px;
+    color: white;
+}
+#navbar ul li a:hover{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   border-radius: 20px;
+   text-decoration: underline;
+}
+.p-heading{
+    font-size: 2rem;
+}
+.center{
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    text-align: right;
+   margin-left: auto;
+
+}
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    margin: 6px;
+    color: white;
+    padding: 15px 32px;
+
+
+}
+@media  (max-width:1100px)
+        {
+            #navbar ul li{
+
+                font-size: 1rem;
+            }
+            .btn{
+
+                font-size: 12px;
+                border-radius: 10px;
+            }
+}
+
+#home{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./bgschool.webp) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+#home-container{
+ margin-bottom: 50px;
+}   
+#about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    margin: 16px;
+    text-align: center;
+    justify-content: space-around;
+}
+.box{
+    border: 2px solid green;
+    border-radius: 3px;
+    height: 230px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(199, 195, 195);
+}
+#instructor{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#imainbox{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    border: 2px solid grey;
+    display: flex;
+    height: 200px;
+    width: 49%;
+    overflow: hidden;
+}
+
+
+
+/* Contact Section */
+#contact{
+    margin-top: 50px;
+   background-color: rgb(6, 67, 67);
+}
+
+#contact-box{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
